@@ -1,0 +1,46 @@
+type: http_request
+model: http_request
+id: rq_LvsJGTysxS
+createdAt: 2026-02-23T20:14:16.706014400
+updatedAt: 2026-02-23T20:15:07.937142900
+workspaceId: wk_fMzHTAECte
+folderId: null
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "requests": [
+          {
+            "type": "execute",
+            "stmt": {
+              "sql": "SELECT * FROM users;",
+              "args": []
+            }
+          }
+        ]
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: X-Namespace
+  value: tenant-111
+  id: 4Ph2uQS0Yb
+- enabled: true
+  name: Authorization
+  value: Bearer 8e330b3f67264ba68a83fbdb34f5514e
+  id: qhB8PgqZuJ
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: 3zHMJB5JwT
+- enabled: true
+  name: ''
+  value: ''
+  id: 6Mg9gYPaDP
+method: POST
+name: 'Execute SQL: Select Data'
+sortPriority: -1771852038576.0
+url: https://tar-sqld.fly.dev/v2/pipeline
+urlParameters: []

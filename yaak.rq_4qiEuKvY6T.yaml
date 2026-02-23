@@ -1,0 +1,31 @@
+type: http_request
+model: http_request
+id: rq_4qiEuKvY6T
+createdAt: 2026-02-23T14:52:29.048685300
+updatedAt: 2026-02-23T15:09:31.727053600
+workspaceId: wk_fMzHTAECte
+folderId: null
+authentication: {}
+authenticationType: null
+body:
+  text: '{}'
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 8e330b3f67264ba68a83fbdb34f5514e
+  id: NFuGpwINx2
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: igfbnqj3zQ
+- enabled: true
+  name: ''
+  value: ''
+  id: AcdF6eYvxD
+method: POST
+name: create namespaces
+sortPriority: -1771852038576.0
+url: https://tar-sqld.fly.dev:8443/v1/namespaces/tenant-103/create
+urlParameters: []

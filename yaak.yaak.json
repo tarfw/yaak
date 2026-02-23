@@ -1,0 +1,289 @@
+{
+  "yaakVersion": "2026.2.4",
+  "yaakSchema": 4,
+  "timestamp": "2026-02-23T20:21:21.756684700",
+  "resources": {
+    "workspaces": [
+      {
+        "model": "workspace",
+        "id": "wk_fMzHTAECte",
+        "createdAt": "2026-02-23T13:06:53.992667200",
+        "updatedAt": "2026-02-23T13:08:24.899282100",
+        "authentication": {},
+        "authenticationType": null,
+        "description": "",
+        "headers": [],
+        "name": "Yaak",
+        "encryptionKeyChallenge": "eUE0azNuQwGpn5EhEyF0M/0qVJGWzjznnFJR2sJ3ZKgq9TpDQA2hyiN3PaGs086/zJkvFNV3vUynbcX8mUwfpPYVAEvAdrNIMl0QMADcJpn4sk27v8y/VmL0jhskARwvo3U=",
+        "settingValidateCertificates": true,
+        "settingFollowRedirects": true,
+        "settingRequestTimeout": 0,
+        "settingDnsOverrides": []
+      }
+    ],
+    "environments": [
+      {
+        "model": "environment",
+        "id": "ev_2Q48FmtLYj",
+        "workspaceId": "wk_fMzHTAECte",
+        "createdAt": "2026-02-23T13:06:54.590952900",
+        "updatedAt": "2026-02-23T13:06:54.590953600",
+        "name": "Global Variables",
+        "public": false,
+        "base": true,
+        "parentModel": "workspace",
+        "parentId": null,
+        "variables": [],
+        "color": null,
+        "sortPriority": 0.0
+      }
+    ],
+    "folders": [],
+    "httpRequests": [
+      {
+        "model": "http_request",
+        "id": "rq_LvsJGTysxS",
+        "createdAt": "2026-02-23T20:14:16.706014400",
+        "updatedAt": "2026-02-23T20:15:07.937142900",
+        "workspaceId": "wk_fMzHTAECte",
+        "folderId": null,
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n    \"requests\": [\n      {\n        \"type\": \"execute\",\n        \"stmt\": {\n          \"sql\": \"SELECT * FROM users;\",\n          \"args\": []\n        }\n      }\n    ]\n  }"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "X-Namespace",
+            "value": "tenant-111",
+            "id": "4Ph2uQS0Yb"
+          },
+          {
+            "enabled": true,
+            "name": "Authorization",
+            "value": "Bearer 8e330b3f67264ba68a83fbdb34f5514e",
+            "id": "qhB8PgqZuJ"
+          },
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "3zHMJB5JwT"
+          },
+          {
+            "enabled": true,
+            "name": "",
+            "value": "",
+            "id": "6Mg9gYPaDP"
+          }
+        ],
+        "method": "POST",
+        "name": "Execute SQL: Select Data",
+        "sortPriority": -1771852038576.0,
+        "url": "https://tar-sqld.fly.dev/v2/pipeline",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_KkcXQ2a7AX",
+        "createdAt": "2026-02-23T20:12:59.527863900",
+        "updatedAt": "2026-02-23T20:14:01.190045200",
+        "workspaceId": "wk_fMzHTAECte",
+        "folderId": null,
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n    \"requests\": [\n      {\n        \"type\": \"execute\",\n        \"stmt\": {\n          \"sql\": \"INSERT INTO users (name) VALUES (?), (?);\",\n          \"args\": [{\"type\": \"text\", \"value\": \"John Doe\"}, {\"type\": \"text\", \"value\": \"Jane Doe\"}]\n        }\n      }\n    ]\n  }"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "X-Namespace",
+            "value": "tenant-111",
+            "id": "Sq0FMxVcfB"
+          },
+          {
+            "enabled": true,
+            "name": "Authorization",
+            "value": "Bearer 8e330b3f67264ba68a83fbdb34f5514e",
+            "id": "EHfh93nTxI"
+          },
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "C38Pg7ks6p"
+          },
+          {
+            "enabled": true,
+            "name": "",
+            "value": "",
+            "id": "9Uiktn8iva"
+          }
+        ],
+        "method": "POST",
+        "name": "Execute SQL: Insert Data",
+        "sortPriority": -1771852038576.0,
+        "url": "https://tar-sqld.fly.dev/v2/pipeline",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_BGV8kfLwPc",
+        "createdAt": "2026-02-23T20:11:17.264957600",
+        "updatedAt": "2026-02-23T20:12:53.366160800",
+        "workspaceId": "wk_fMzHTAECte",
+        "folderId": null,
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{\n    \"requests\": [\n      {\n        \"type\": \"execute\",\n        \"stmt\": {\n          \"sql\": \"CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT);\",\n          \"args\": []\n        }\n      }\n    ]\n  }"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "X-Namespace",
+            "value": "tenant-111",
+            "id": "2rG3Yqnegm"
+          },
+          {
+            "enabled": true,
+            "name": "Authorization",
+            "value": "Bearer 8e330b3f67264ba68a83fbdb34f5514e",
+            "id": "TdGC7wtAwz"
+          },
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "HXWSYGV3gw"
+          },
+          {
+            "enabled": true,
+            "name": "",
+            "value": "",
+            "id": "jpdmckjbmA"
+          }
+        ],
+        "method": "POST",
+        "name": "Execute SQL: Create a Table",
+        "sortPriority": -1771852038576.0,
+        "url": "https://tar-sqld.fly.dev/v2/pipeline",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_cEPQJs8tUQ",
+        "createdAt": "2026-02-23T14:55:05.113345",
+        "updatedAt": "2026-02-23T14:55:31.468274400",
+        "workspaceId": "wk_fMzHTAECte",
+        "folderId": null,
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Authorization",
+            "value": "Bearer 8e330b3f67264ba68a83fbdb34f5514e",
+            "id": "v0KD7ZHJAz"
+          },
+          {
+            "enabled": true,
+            "name": "",
+            "value": "",
+            "id": "WZ0RYBTcmq"
+          }
+        ],
+        "method": "DELETE",
+        "name": "delete namespaces",
+        "sortPriority": -1771852038576.0,
+        "url": "https://tar-sqld.fly.dev:8443/v1/namespaces/tenant-111",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_4qiEuKvY6T",
+        "createdAt": "2026-02-23T14:52:29.048685300",
+        "updatedAt": "2026-02-23T15:09:31.727053600",
+        "workspaceId": "wk_fMzHTAECte",
+        "folderId": null,
+        "authentication": {},
+        "authenticationType": null,
+        "body": {
+          "text": "{}"
+        },
+        "bodyType": "application/json",
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Authorization",
+            "value": "Bearer 8e330b3f67264ba68a83fbdb34f5514e",
+            "id": "NFuGpwINx2"
+          },
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json",
+            "id": "igfbnqj3zQ"
+          },
+          {
+            "enabled": true,
+            "name": "",
+            "value": "",
+            "id": "AcdF6eYvxD"
+          }
+        ],
+        "method": "POST",
+        "name": "create namespaces",
+        "sortPriority": -1771852038576.0,
+        "url": "https://tar-sqld.fly.dev:8443/v1/namespaces/tenant-103/create",
+        "urlParameters": []
+      },
+      {
+        "model": "http_request",
+        "id": "rq_mPs2tPb5eT",
+        "createdAt": "2026-02-23T13:07:18.581397900",
+        "updatedAt": "2026-02-23T14:54:13.639966400",
+        "workspaceId": "wk_fMzHTAECte",
+        "folderId": null,
+        "authentication": {},
+        "authenticationType": null,
+        "body": {},
+        "bodyType": null,
+        "description": "",
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Authorization",
+            "value": "Bearer 8e330b3f67264ba68a83fbdb34f5514e",
+            "id": "aF6HMKkaIx"
+          },
+          {
+            "enabled": true,
+            "name": "",
+            "value": "",
+            "id": "2SVhywpfZN"
+          }
+        ],
+        "method": "GET",
+        "name": "get namespaces",
+        "sortPriority": -1771852038576.0,
+        "url": "https://tar-sqld.fly.dev:8443/v1/namespaces",
+        "urlParameters": []
+      }
+    ],
+    "grpcRequests": [],
+    "websocketRequests": []
+  }
+}

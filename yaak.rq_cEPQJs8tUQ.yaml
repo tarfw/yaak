@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_cEPQJs8tUQ
+createdAt: 2026-02-23T14:55:05.113345
+updatedAt: 2026-02-23T14:55:31.468274400
+workspaceId: wk_fMzHTAECte
+folderId: null
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 8e330b3f67264ba68a83fbdb34f5514e
+  id: v0KD7ZHJAz
+- enabled: true
+  name: ''
+  value: ''
+  id: WZ0RYBTcmq
+method: DELETE
+name: delete namespaces
+sortPriority: -1771852038576.0
+url: https://tar-sqld.fly.dev:8443/v1/namespaces/tenant-111
+urlParameters: []

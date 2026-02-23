@@ -1,0 +1,46 @@
+type: http_request
+model: http_request
+id: rq_BGV8kfLwPc
+createdAt: 2026-02-23T20:11:17.264957600
+updatedAt: 2026-02-23T20:12:53.366160800
+workspaceId: wk_fMzHTAECte
+folderId: null
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "requests": [
+          {
+            "type": "execute",
+            "stmt": {
+              "sql": "CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT);",
+              "args": []
+            }
+          }
+        ]
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: X-Namespace
+  value: tenant-111
+  id: 2rG3Yqnegm
+- enabled: true
+  name: Authorization
+  value: Bearer 8e330b3f67264ba68a83fbdb34f5514e
+  id: TdGC7wtAwz
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: HXWSYGV3gw
+- enabled: true
+  name: ''
+  value: ''
+  id: jpdmckjbmA
+method: POST
+name: 'Execute SQL: Create a Table'
+sortPriority: -1771852038576.0
+url: https://tar-sqld.fly.dev/v2/pipeline
+urlParameters: []

@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_mPs2tPb5eT
+createdAt: 2026-02-23T13:07:18.581397900
+updatedAt: 2026-02-23T14:54:13.639966400
+workspaceId: wk_fMzHTAECte
+folderId: null
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 8e330b3f67264ba68a83fbdb34f5514e
+  id: aF6HMKkaIx
+- enabled: true
+  name: ''
+  value: ''
+  id: 2SVhywpfZN
+method: GET
+name: get namespaces
+sortPriority: -1771852038576.0
+url: https://tar-sqld.fly.dev:8443/v1/namespaces
+urlParameters: []
