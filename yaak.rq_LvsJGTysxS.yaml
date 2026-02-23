@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_LvsJGTysxS
 createdAt: 2026-02-23T20:14:16.706014400
-updatedAt: 2026-02-23T20:15:07.937142900
+updatedAt: 2026-02-23T20:24:20.407956100
 workspaceId: wk_fMzHTAECte
 folderId: null
 authentication: {}
@@ -40,7 +40,7 @@ headers:
   value: ''
   id: 6Mg9gYPaDP
 method: POST
-name: 'Execute SQL: Select Data'
+name: Select Data
 sortPriority: -1771852038576.0
 url: https://tar-sqld.fly.dev/v2/pipeline
 urlParameters: []
