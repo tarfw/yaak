@@ -1,0 +1,13 @@
+type: folder
+model: folder
+id: fl_hKj3PA9BcG
+createdAt: 2026-02-23T20:29:57.702728100
+updatedAt: 2026-02-23T20:30:07.059194300
+workspaceId: wk_fMzHTAECte
+folderId: null
+authentication: {}
+authenticationType: null
+description: ''
+headers: []
+name: libsql
+sortPriority: 0.0

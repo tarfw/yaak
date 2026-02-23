@@ -2,9 +2,9 @@ type: http_request
 model: http_request
 id: rq_4qiEuKvY6T
 createdAt: 2026-02-23T14:52:29.048685300
-updatedAt: 2026-02-23T15:09:31.727053600
+updatedAt: 2026-02-23T20:30:16.285371
 workspaceId: wk_fMzHTAECte
-folderId: null
+folderId: fl_hKj3PA9BcG
 authentication: {}
 authenticationType: null
 body:
@@ -26,6 +26,6 @@ headers:
   id: AcdF6eYvxD
 method: POST
 name: create namespaces
-sortPriority: -1771852038576.0
+sortPriority: 0.0
 url: https://tar-sqld.fly.dev:8443/v1/namespaces/tenant-103/create
 urlParameters: []

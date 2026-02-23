@@ -2,9 +2,9 @@ type: http_request
 model: http_request
 id: rq_LvsJGTysxS
 createdAt: 2026-02-23T20:14:16.706014400
-updatedAt: 2026-02-23T20:24:20.407956100
+updatedAt: 2026-02-23T20:30:17.863003200
 workspaceId: wk_fMzHTAECte
-folderId: null
+folderId: fl_hKj3PA9BcG
 authentication: {}
 authenticationType: null
 body:
@@ -41,6 +41,6 @@ headers:
   id: 6Mg9gYPaDP
 method: POST
 name: Select Data
-sortPriority: -1771852038576.0
+sortPriority: 333.3333333333333
 url: https://tar-sqld.fly.dev/v2/pipeline
 urlParameters: []

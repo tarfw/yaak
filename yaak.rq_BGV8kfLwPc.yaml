@@ -2,9 +2,9 @@ type: http_request
 model: http_request
 id: rq_BGV8kfLwPc
 createdAt: 2026-02-23T20:11:17.264957600
-updatedAt: 2026-02-23T20:28:43.193500100
+updatedAt: 2026-02-23T20:30:16.343359200
 workspaceId: wk_fMzHTAECte
-folderId: null
+folderId: fl_hKj3PA9BcG
 authentication: {}
 authenticationType: null
 body:
@@ -41,6 +41,6 @@ headers:
   id: jpdmckjbmA
 method: POST
 name: Create a Table
-sortPriority: -1771852038576.0
+sortPriority: 1000.0
 url: https://tar-sqld.fly.dev/v2/pipeline
 urlParameters: []

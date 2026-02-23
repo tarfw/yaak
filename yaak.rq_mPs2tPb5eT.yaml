@@ -2,9 +2,9 @@ type: http_request
 model: http_request
 id: rq_mPs2tPb5eT
 createdAt: 2026-02-23T13:07:18.581397900
-updatedAt: 2026-02-23T14:54:13.639966400
+updatedAt: 2026-02-23T20:30:16.315716200
 workspaceId: wk_fMzHTAECte
-folderId: null
+folderId: fl_hKj3PA9BcG
 authentication: {}
 authenticationType: null
 body: {}
@@ -21,6 +21,6 @@ headers:
   id: 2SVhywpfZN
 method: GET
 name: get namespaces
-sortPriority: -1771852038576.0
+sortPriority: 3000.0
 url: https://tar-sqld.fly.dev:8443/v1/namespaces
 urlParameters: []

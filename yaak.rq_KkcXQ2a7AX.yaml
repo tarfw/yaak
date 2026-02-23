@@ -2,9 +2,9 @@ type: http_request
 model: http_request
 id: rq_KkcXQ2a7AX
 createdAt: 2026-02-23T20:12:59.527863900
-updatedAt: 2026-02-23T20:26:09.893724300
+updatedAt: 2026-02-23T20:30:19.154739400
 workspaceId: wk_fMzHTAECte
-folderId: null
+folderId: fl_hKj3PA9BcG
 authentication: {}
 authenticationType: null
 body:
@@ -41,6 +41,6 @@ headers:
   id: 9Uiktn8iva
 method: POST
 name: Insert Data
-sortPriority: -1771852038576.0
+sortPriority: 1333.3333333333333
 url: https://tar-sqld.fly.dev/v2/pipeline
 urlParameters: []
