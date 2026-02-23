@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_BGV8kfLwPc
 createdAt: 2026-02-23T20:11:17.264957600
-updatedAt: 2026-02-23T20:12:53.366160800
+updatedAt: 2026-02-23T20:28:43.193500100
 workspaceId: wk_fMzHTAECte
 folderId: null
 authentication: {}
@@ -40,7 +40,7 @@ headers:
   value: ''
   id: jpdmckjbmA
 method: POST
-name: 'Execute SQL: Create a Table'
+name: Create a Table
 sortPriority: -1771852038576.0
 url: https://tar-sqld.fly.dev/v2/pipeline
 urlParameters: []
