@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_KkcXQ2a7AX
 createdAt: 2026-02-23T20:12:59.527863900
-updatedAt: 2026-02-23T20:30:19.154739400
+updatedAt: 2026-02-24T11:35:21.245051100
 workspaceId: wk_fMzHTAECte
 folderId: fl_hKj3PA9BcG
 authentication: {}
@@ -14,8 +14,7 @@ body:
           {
             "type": "execute",
             "stmt": {
-              "sql": "INSERT INTO users (name) VALUES (?), (?);",
-              "args": [{"type": "text", "value": "John Doe"}, {"type": "text", "value": "Jane Doe"}]
+              "sql": "INSERT INTO products (name) VALUES ('Shirt');"
             }
           }
         ]
@@ -24,23 +23,19 @@ bodyType: application/json
 description: ''
 headers:
 - enabled: true
-  name: X-Namespace
-  value: tenant-111
-  id: Sq0FMxVcfB
-- enabled: true
   name: Authorization
   value: Bearer 8e330b3f67264ba68a83fbdb34f5514e
-  id: EHfh93nTxI
+  id: k5cqjFpkrm
 - enabled: true
   name: Content-Type
   value: application/json
-  id: C38Pg7ks6p
+  id: vQD0NsU9Ct
 - enabled: true
   name: ''
   value: ''
-  id: 9Uiktn8iva
+  id: 9krxTpXkke
 method: POST
 name: Insert Data
-sortPriority: 1333.3333333333333
-url: https://tar-sqld.fly.dev/v2/pipeline
+sortPriority: 185.18518518518516
+url: https://store_number_5.db.tarai.space/v2/pipeline
 urlParameters: []

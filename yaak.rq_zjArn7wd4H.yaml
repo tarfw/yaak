@@ -1,8 +1,8 @@
 type: http_request
 model: http_request
-id: rq_BGV8kfLwPc
-createdAt: 2026-02-23T20:11:17.264957600
-updatedAt: 2026-02-24T11:24:05.882777300
+id: rq_zjArn7wd4H
+createdAt: 2026-02-24T11:25:16.492559
+updatedAt: 2026-02-24T11:26:06.528366100
 workspaceId: wk_fMzHTAECte
 folderId: fl_hKj3PA9BcG
 authentication: {}
@@ -10,32 +10,32 @@ authenticationType: null
 body:
   text: |-
     {
-        "requests": [
-          {
-            "type": "execute",
-            "stmt": {
-              "sql": "CREATE TABLE products (id INTEGER PRIMARY KEY, name TEXT);"
-            }
+      "requests": [
+        {
+          "type": "execute",
+          "stmt": {
+            "sql": "SELECT * FROM products;"
           }
-        ]
-      }
+        }
+      ]
+    }
 bodyType: application/json
 description: ''
 headers:
 - enabled: true
   name: Authorization
   value: Bearer 8e330b3f67264ba68a83fbdb34f5514e
-  id: a9wMfAbgec
+  id: k5cqjFpkrm
 - enabled: true
   name: Content-Type
   value: application/json
-  id: tZ4dIj30QT
+  id: vQD0NsU9Ct
 - enabled: true
   name: ''
   value: ''
-  id: WeVsshmcRT
+  id: 9krxTpXkke
 method: POST
-name: Create a Table
-sortPriority: 111.1111111111111
+name: get data
+sortPriority: 185.18618518518517
 url: https://store_number_5.db.tarai.space/v2/pipeline
 urlParameters: []

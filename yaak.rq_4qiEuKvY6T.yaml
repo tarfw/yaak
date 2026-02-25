@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_4qiEuKvY6T
 createdAt: 2026-02-23T14:52:29.048685300
-updatedAt: 2026-02-23T20:45:18.374916200
+updatedAt: 2026-02-25T12:57:25.456950900
 workspaceId: wk_fMzHTAECte
 folderId: fl_hKj3PA9BcG
 authentication: {}
@@ -15,17 +15,17 @@ headers:
 - enabled: true
   name: Authorization
   value: Bearer 8e330b3f67264ba68a83fbdb34f5514e
-  id: NFuGpwINx2
-- enabled: true
-  name: Content-Type
-  value: application/json
-  id: igfbnqj3zQ
+  id: smQ3VAVfgy
 - enabled: true
   name: ''
   value: ''
-  id: AcdF6eYvxD
+  id: BgD2N7d2c3
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: HSzNF7GmFz
 method: POST
 name: create namespaces
 sortPriority: 0.0
-url: https://tar-sqld.fly.dev:8443/v1/namespaces/tenant-103/create
+url: https://db.tarai.space:8081/v1/namespaces/test_tenant_12/create
 urlParameters: []
