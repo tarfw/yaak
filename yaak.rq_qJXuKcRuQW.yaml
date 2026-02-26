@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_qJXuKcRuQW
 createdAt: 2026-02-26T11:33:08.195890800
-updatedAt: 2026-02-26T11:38:32.248536400
+updatedAt: 2026-02-26T12:48:56.209180300
 workspaceId: wk_fMzHTAECte
 folderId: null
 authentication: {}
@@ -13,13 +13,9 @@ body:
       "requests": [
         {
           "type": "execute",
-          "stmt": {
-            "sql": "SELECT * FROM products"
-          }
+          "stmt": { "sql": "SELECT * FROM products" }
         },
-        {
-          "type": "close"
-        }
+        { "type": "close" }
       ]
     }
 bodyType: application/json
@@ -40,5 +36,5 @@ headers:
 method: POST
 name: libsql railways
 sortPriority: -1181403270802.0
-url: https://rlibsql-production.up.railway.app/v2/pipeline
+url: https://thamizh.app/v2/pipeline
 urlParameters: []

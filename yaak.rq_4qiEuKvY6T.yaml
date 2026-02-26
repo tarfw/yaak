@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_4qiEuKvY6T
 createdAt: 2026-02-23T14:52:29.048685300
-updatedAt: 2026-02-25T12:57:25.456950900
+updatedAt: 2026-02-26T11:40:28.176874400
 workspaceId: wk_fMzHTAECte
 folderId: fl_hKj3PA9BcG
 authentication: {}
@@ -27,5 +27,5 @@ headers:
 method: POST
 name: create namespaces
 sortPriority: 0.0
-url: https://db.tarai.space:8081/v1/namespaces/test_tenant_12/create
+url: https://db.tarai.space:8081/v1/namespaces/test_tenant_14/create
 urlParameters: []
