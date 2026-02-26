@@ -1,0 +1,44 @@
+type: http_request
+model: http_request
+id: rq_qJXuKcRuQW
+createdAt: 2026-02-26T11:33:08.195890800
+updatedAt: 2026-02-26T11:38:32.248536400
+workspaceId: wk_fMzHTAECte
+folderId: null
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "requests": [
+        {
+          "type": "execute",
+          "stmt": {
+            "sql": "SELECT * FROM products"
+          }
+        },
+        {
+          "type": "close"
+        }
+      ]
+    }
+bodyType: application/json
+description: "create table\n\n{\n  \"requests\": [\n    {\n      \"type\": \"execute\",\n      \"stmt\": { \"sql\": \"CREATE TABLE products (id INTEGER PRIMARY KEY, name TEXT)\" }\n    },\n    { \"type\": \"close\" }\n  ]\n}\n\ninsert data \n\n{\n  \"requests\": [\n    {\n      \"type\": \"execute\",\n      \"stmt\": { \"sql\": \"INSERT INTO products (name) VALUES ('Laptop')\" }\n    },\n    { \"type\": \"close\" }\n  ]\n}\n\nget data\n\n{\n  \"requests\": [\n    {\n      \"type\": \"execute\",\n      \"stmt\": { \"sql\": \"SELECT * FROM products\" }\n    },\n    { \"type\": \"close\" }\n  ]\n}\n\n\n"
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJhIjoicnciLCJleHAiOjIwODc0NjQ3MjUsImlhdCI6MTc3MjEwNDcyNX0.ZvNjCW9CTc4FyxWu5i72BbO_S-1UsqOW-NoRd_Dp_7IvLebRkumtU_Awl5ylEmY88Svau8C3Ros7XyZxstzHDg
+  id: a9wMfAbgec
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: tZ4dIj30QT
+- enabled: true
+  name: ''
+  value: ''
+  id: gyyVyjVwH0
+method: POST
+name: libsql railways
+sortPriority: -1181403270802.0
+url: https://rlibsql-production.up.railway.app/v2/pipeline
+urlParameters: []
