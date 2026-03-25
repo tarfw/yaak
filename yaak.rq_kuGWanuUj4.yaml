@@ -1,0 +1,23 @@
+type: http_request
+model: http_request
+id: rq_kuGWanuUj4
+createdAt: 2026-03-25T06:33:13.836702500
+updatedAt: 2026-03-25T18:56:21.884157600
+workspaceId: wk_fMzHTAECte
+folderId: null
+authentication: {}
+authenticationType: null
+body:
+  text: '{"opcode": 301, "streamid": "product:cookies", "delta": 30}'
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: null
+method: POST
+name: events api
+sortPriority: -1773773907207.0
+url: https://taragent.wetarteam.workers.dev/api/event
+urlParameters: []

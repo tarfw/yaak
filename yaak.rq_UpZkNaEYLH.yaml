@@ -1,0 +1,23 @@
+type: http_request
+model: http_request
+id: rq_UpZkNaEYLH
+createdAt: 2026-03-17T17:12:28.395905200
+updatedAt: 2026-03-25T18:56:41.760037
+workspaceId: wk_fMzHTAECte
+folderId: null
+authentication: {}
+authenticationType: null
+body:
+  text: '{"channel": "telegram", "userId": "admin", "scope": "product:running-shoes", "text": "sell 3 more running shoes"}'
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: null
+method: POST
+name: channels api
+sortPriority: -1773745278509.0
+url: https://taragent.wetarteam.workers.dev/api/channel
+urlParameters: []
